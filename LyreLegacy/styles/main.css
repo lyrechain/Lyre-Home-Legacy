@@ -1,0 +1,122 @@
+body {
+    font-family: "pompiere_regular", "sans-serif";
+    background: #ffffff !important;
+}
+
+#hero-root {
+    background-image: url("../assets/hero-bg.svg");
+}
+
+#hero-root a {
+    background: transparent;
+    color: #00ffff;
+    font-size: 100% !important;
+    border: 1px solid #00ffff;
+    padding: 10px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 1);
+}
+
+
+#hero-root a:hover {
+    background: transparent;
+    color: #8a38e2;
+    font-size: 100% !important;
+    border: 1px solid #8a38e2;
+}
+#hero-social svg {
+    width: 20px !important;
+}
+#hero-social a {
+    border: none ;
+    box-shadow: none ;
+    padding: 6px !important;
+}
+#hero-social a:hover {
+    background: #8a38e2;
+    box-shadow: none ;
+    padding: 6px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@media (min-width: 768px) {
+    #hero-root img {
+        width: 65%;
+    }
+}
+
+#hero {
+    background-image: url("../assets/hero-bg.svg");
+}
+.color-primary {
+    color: #130522;
+}
+.color-secondary {
+    color: #00ffff;
+}
+.color-tertiary {
+    color: #8a38e2;
+}
+.color-main {
+    color: #420b63;
+}
+.shell-glow {
+	border: none !important;
+	border-radius: 30px !important;
+	box-shadow: 0 0 5px #7415ce !important;
+	text-shadow: 0 0 8px #7415ce !important;
+	background: rgba(128, 1, 255, 0.07) !important;
+	padding: 3.5% 5% !important;
+	color: #dadada !important;
+	font-size: 120% !important;
+}
+.color-glow {
+	text-shadow: 0 0 8px #7415ce !important;
+}
+.white {
+    color: #ffffff;
+}
+
+.compagnon-roman {
+    font-family: "compagnonroman", "Sans-serif";
+}
+.fontin-regular {
+    font-family: "fontinregular", "Sans-serif";
+}
+.fontin-smallcaps {
+    font-family: "fontinsmallcaps", "Sans-serif";
+}
+.sans-serif {
+    font-family: "Sans-serif";
+}
+
+.pompiere-regular {
+    font-family: "pompiere_regular", "Sans-serif";
+    font-size: 130% !important;
+}
+
+.dadada {
+    color: #dadada;
+}
+.weight-100 {
+    font-weight: 100 !important;
+}
+.font-size-150 {
+    font-size: 150% !important;
+}
+
+.dark-bg {
+    background-image: url("../assets/hero-bg-plain.svg");
+}
+.link-glow {
+    color: #00ffff !important;
+}
+.link-glow:hover {
+    color: #7415ce !important;
+}
+
+.link-glow-original:hover {
+    color: #7415ce !important;
+}
